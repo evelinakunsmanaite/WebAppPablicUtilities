@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 мая 2023 г., 09:05:09
+    Author     : Administrator
+*/
+
+ table {
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 190px;
+                width: 90%;
+                border: none;
+                margin-bottom: 20px;
+                border-collapse: separate;
+            }
+
+            table {
+                border-radius: 10px; /* Закругление углов */
+                overflow: hidden; /* Скрывает выступающие углы, если есть */
+            }
+
+            th {
+                font-size: 17px;
+                font-weight: normal;
+                background: #7c7182;
+                border-top: 4px solid #7c7182;
+                border-bottom: 1px solid white;
+                color: #392a40;
+                padding: 8px;
+                border: none;
+            }
+
+            td {
+                background: #bdb1c4;
+                border: none;
+                border-bottom: 1px solid white;
+                color: rgb(67, 60, 71);
+                border-top: 1px solid transparent;
+                padding: 8px;
+            }
+
+            tr:hover td {
+                background: #a69cad;
+            }
+
+            form {
+                margin-left: 100px;
+            }
+
+            input[type="submit"] {
+                padding: 10px 20px;
+                background-color: #669;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }

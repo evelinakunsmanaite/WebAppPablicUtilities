@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 мая 2023 г., 08:33:25
+    Author     : Administrator
+*/
+
+ body {
+                background-color: #a69cad;
+                color: white;
+                font-family: Arial, sans-serif;
+            }
+
+            h1 {
+                color: red;
+            }
+
+            .nav-item a {
+                color: white;
+                background-color: #7c7182;
+                padding: 10px 15px;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+
+            .nav-item a:hover {
+                background-color: #bdb1c4;
+            }
